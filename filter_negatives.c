@@ -43,6 +43,7 @@ int* filter_negatives(int arr[], int length, int* result_length) {
     // Allocate memory for the resulting array
     int* result = (int*)malloc(count * sizeof(int));
     if (result == NULL) {
+        printf("Memory allocation failed.\n");
         *result_length = 0;
         return NULL;
     }
