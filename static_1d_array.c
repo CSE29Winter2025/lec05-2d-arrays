@@ -1,12 +1,16 @@
 #include<stdio.h>
+#define SIZE 100
 
 void initialize_array(int *arr, int length);
 void print_1d_array(int *arr, int length);
 
 int main() {
-    int arr[5];
-    initialize_array(arr, 5);
-    print_1d_array(arr, 5);
+    int arr[SIZE];
+    print_1d_array(arr, SIZE);
+    initialize_array(arr, SIZE);
+    printf("***************************************************************\n");
+    print_1d_array(arr, SIZE);
+    
     return 0;
 }
 
