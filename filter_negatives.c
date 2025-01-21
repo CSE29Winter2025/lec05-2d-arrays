@@ -8,8 +8,6 @@
 // the original array, the function should return NULL and set the length of the
 // resulting array to 0.
 
-// NOTE: The function should NOT use any built-in C library functions.
-
 #include <stdio.h>
 #include <stdlib.h>
 
